@@ -9,6 +9,6 @@ package javaIntroEjAp;
 
 public class JavaIntroEjAp20 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
     }    
 }
