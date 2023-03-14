@@ -9,5 +9,22 @@ package javaIntroEjApEx;
 public class JavaIntroEjApEx02 {
 
     public static void main(String[] args) {
+        int a = 10, b = 20, c = 30, d = 40, aux;
+        
+        System.out.println("A: " + a);
+        System.out.println("B: " + b);
+        System.out.println("C: " + c);
+        System.out.println("D: " + d);
+        
+        aux = b;        
+        b = c;
+        c = a;
+        a = d;
+        d = aux;
+        
+        System.out.println("A: " + a);
+        System.out.println("B: " + b);
+        System.out.println("C: " + c);
+        System.out.println("D: " + d);
     }    
 }
