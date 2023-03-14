@@ -16,7 +16,7 @@ public class JavaIntroEjAp19 {
         int [] [] MatrizB = new int [3][3];
         
         System.out.println("Ingrese los valores de su matriz: ");
-        //Llenado de matriz1 normal
+        //Llenado de matriz1 normal       
         for (int i = 0 ; i < 3 ; i++) {
             for ( int j = 0 ; j < 3 ; j++ ){
                 MatrizA [i][j] = leer.nextInt();
