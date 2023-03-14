@@ -27,8 +27,7 @@ public class JavaIntroEjAp11 {
         Scanner leer = new Scanner(System.in);
         
         int num1, num2, opcion;
-        String eleccion = null;
-        
+        String eleccion = null;        
         System.out.println("Ingrese dos numeros: ");
         num1 = leer.nextInt();
         num2 = leer.nextInt();

@@ -20,8 +20,7 @@ public class JavaIntroEjAp16 {
         for (int i = 0; i < vectorAleatorio.length; i++) {
             vectorAleatorio[i] += (Math.random() * 10); 
         }
-        
-        
+                
         System.out.println("Ingrese un numero a buscar: ");
         num = leer.nextInt();
         

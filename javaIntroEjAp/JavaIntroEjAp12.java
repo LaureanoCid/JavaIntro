@@ -30,10 +30,8 @@ public class JavaIntroEjAp12 {
         while (!cadena.equals("&&&&&")){
             int longitud = cadena.length();
      
-            if (cadena.substring(0, 1).equalsIgnoreCase("x") && (cadena.endsWith("o")) && (longitud == 5) ) {
-        
-                correcta++;
-         
+            if (cadena.substring(0, 1).equalsIgnoreCase("x") && (cadena.endsWith("o")) && (longitud == 5) ) {        
+                correcta++;         
             }else {
                 incorrecta++;
                 System.out.println("Ingrese otra cadena");

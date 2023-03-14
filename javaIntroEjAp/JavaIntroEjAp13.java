@@ -14,8 +14,7 @@ public class JavaIntroEjAp13 {
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
-        int n;
-        
+        int n;        
         System.out.println("Ingrese la longitud de los lados: ");
         n = leer.nextInt();
         

@@ -7,6 +7,7 @@ package javaIntroEjAp;
 public class JavaIntroEjAp15 {
 
     public static void main(String[] args) {
+        
         int[] primerosNum = new int [100];
         
         for (int i = 0; i < primerosNum.length; i++) {

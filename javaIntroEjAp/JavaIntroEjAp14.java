@@ -35,8 +35,7 @@ public class JavaIntroEjAp14 {
         convertidor(numC,euros);         
     }
     
-    public static void convertidor (int numC,int euros) {
-        
+    public static void convertidor (int numC,int euros) {        
         double coin;
         switch (numC) {
             
